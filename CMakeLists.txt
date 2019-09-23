@@ -4,7 +4,7 @@ project(pacman)
 # Archivos del Projecto
 set(PROJECT_SOURCE
         main.cpp
-        Clases/Automovil.cpp Clases/Automovil.h Clases/Jugador.cpp Clases/Jugador.h Clases/Pelota.cpp Clases/Pelota.h)
+        Clases/Automovil.cpp Clases/Automovil.h Clases/Jugador.cpp Clases/Jugador.h Clases/Pelota.cpp Clases/Pelota.h Clases/Juego.cpp Clases/Juego.h Clases/PantallaJuego.cpp Clases/PantallaJuego.h)
 
 # C++ Standard se sugiere 11 o 14
 set(CMAKE_CXX_STANDARD 14)
