@@ -43,10 +43,10 @@ RM = /opt/clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ronal/CLionProjects/pacman
+CMAKE_SOURCE_DIR = "/home/ronal/Desktop/Clion Projects/PONG"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ronal/CLionProjects/pacman/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pacman.dir/depend.make
@@ -59,62 +59,90 @@ include CMakeFiles/pacman.dir/flags.make
 
 CMakeFiles/pacman.dir/main.cpp.o: CMakeFiles/pacman.dir/flags.make
 CMakeFiles/pacman.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pacman.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/main.cpp.o -c /home/ronal/CLionProjects/pacman/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pacman.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/main.cpp.o -c "/home/ronal/Desktop/Clion Projects/PONG/main.cpp"
 
 CMakeFiles/pacman.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pacman.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronal/CLionProjects/pacman/main.cpp > CMakeFiles/pacman.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ronal/Desktop/Clion Projects/PONG/main.cpp" > CMakeFiles/pacman.dir/main.cpp.i
 
 CMakeFiles/pacman.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronal/CLionProjects/pacman/main.cpp -o CMakeFiles/pacman.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ronal/Desktop/Clion Projects/PONG/main.cpp" -o CMakeFiles/pacman.dir/main.cpp.s
 
 CMakeFiles/pacman.dir/Clases/Automovil.cpp.o: CMakeFiles/pacman.dir/flags.make
 CMakeFiles/pacman.dir/Clases/Automovil.cpp.o: ../Clases/Automovil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pacman.dir/Clases/Automovil.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/Automovil.cpp.o -c /home/ronal/CLionProjects/pacman/Clases/Automovil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pacman.dir/Clases/Automovil.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/Automovil.cpp.o -c "/home/ronal/Desktop/Clion Projects/PONG/Clases/Automovil.cpp"
 
 CMakeFiles/pacman.dir/Clases/Automovil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pacman.dir/Clases/Automovil.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronal/CLionProjects/pacman/Clases/Automovil.cpp > CMakeFiles/pacman.dir/Clases/Automovil.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ronal/Desktop/Clion Projects/PONG/Clases/Automovil.cpp" > CMakeFiles/pacman.dir/Clases/Automovil.cpp.i
 
 CMakeFiles/pacman.dir/Clases/Automovil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/Clases/Automovil.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronal/CLionProjects/pacman/Clases/Automovil.cpp -o CMakeFiles/pacman.dir/Clases/Automovil.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ronal/Desktop/Clion Projects/PONG/Clases/Automovil.cpp" -o CMakeFiles/pacman.dir/Clases/Automovil.cpp.s
 
 CMakeFiles/pacman.dir/Clases/Jugador.cpp.o: CMakeFiles/pacman.dir/flags.make
 CMakeFiles/pacman.dir/Clases/Jugador.cpp.o: ../Clases/Jugador.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pacman.dir/Clases/Jugador.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/Jugador.cpp.o -c /home/ronal/CLionProjects/pacman/Clases/Jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pacman.dir/Clases/Jugador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/Jugador.cpp.o -c "/home/ronal/Desktop/Clion Projects/PONG/Clases/Jugador.cpp"
 
 CMakeFiles/pacman.dir/Clases/Jugador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pacman.dir/Clases/Jugador.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronal/CLionProjects/pacman/Clases/Jugador.cpp > CMakeFiles/pacman.dir/Clases/Jugador.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ronal/Desktop/Clion Projects/PONG/Clases/Jugador.cpp" > CMakeFiles/pacman.dir/Clases/Jugador.cpp.i
 
 CMakeFiles/pacman.dir/Clases/Jugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/Clases/Jugador.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronal/CLionProjects/pacman/Clases/Jugador.cpp -o CMakeFiles/pacman.dir/Clases/Jugador.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ronal/Desktop/Clion Projects/PONG/Clases/Jugador.cpp" -o CMakeFiles/pacman.dir/Clases/Jugador.cpp.s
 
 CMakeFiles/pacman.dir/Clases/Pelota.cpp.o: CMakeFiles/pacman.dir/flags.make
 CMakeFiles/pacman.dir/Clases/Pelota.cpp.o: ../Clases/Pelota.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pacman.dir/Clases/Pelota.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/Pelota.cpp.o -c /home/ronal/CLionProjects/pacman/Clases/Pelota.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pacman.dir/Clases/Pelota.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/Pelota.cpp.o -c "/home/ronal/Desktop/Clion Projects/PONG/Clases/Pelota.cpp"
 
 CMakeFiles/pacman.dir/Clases/Pelota.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pacman.dir/Clases/Pelota.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronal/CLionProjects/pacman/Clases/Pelota.cpp > CMakeFiles/pacman.dir/Clases/Pelota.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ronal/Desktop/Clion Projects/PONG/Clases/Pelota.cpp" > CMakeFiles/pacman.dir/Clases/Pelota.cpp.i
 
 CMakeFiles/pacman.dir/Clases/Pelota.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/Clases/Pelota.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronal/CLionProjects/pacman/Clases/Pelota.cpp -o CMakeFiles/pacman.dir/Clases/Pelota.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ronal/Desktop/Clion Projects/PONG/Clases/Pelota.cpp" -o CMakeFiles/pacman.dir/Clases/Pelota.cpp.s
+
+CMakeFiles/pacman.dir/Clases/Juego.cpp.o: CMakeFiles/pacman.dir/flags.make
+CMakeFiles/pacman.dir/Clases/Juego.cpp.o: ../Clases/Juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pacman.dir/Clases/Juego.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/Juego.cpp.o -c "/home/ronal/Desktop/Clion Projects/PONG/Clases/Juego.cpp"
+
+CMakeFiles/pacman.dir/Clases/Juego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pacman.dir/Clases/Juego.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ronal/Desktop/Clion Projects/PONG/Clases/Juego.cpp" > CMakeFiles/pacman.dir/Clases/Juego.cpp.i
+
+CMakeFiles/pacman.dir/Clases/Juego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/Clases/Juego.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ronal/Desktop/Clion Projects/PONG/Clases/Juego.cpp" -o CMakeFiles/pacman.dir/Clases/Juego.cpp.s
+
+CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.o: CMakeFiles/pacman.dir/flags.make
+CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.o: ../Clases/PantallaJuego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.o -c "/home/ronal/Desktop/Clion Projects/PONG/Clases/PantallaJuego.cpp"
+
+CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ronal/Desktop/Clion Projects/PONG/Clases/PantallaJuego.cpp" > CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.i
+
+CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ronal/Desktop/Clion Projects/PONG/Clases/PantallaJuego.cpp" -o CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.s
 
 # Object files for target pacman
 pacman_OBJECTS = \
 "CMakeFiles/pacman.dir/main.cpp.o" \
 "CMakeFiles/pacman.dir/Clases/Automovil.cpp.o" \
 "CMakeFiles/pacman.dir/Clases/Jugador.cpp.o" \
-"CMakeFiles/pacman.dir/Clases/Pelota.cpp.o"
+"CMakeFiles/pacman.dir/Clases/Pelota.cpp.o" \
+"CMakeFiles/pacman.dir/Clases/Juego.cpp.o" \
+"CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.o"
 
 # External object files for target pacman
 pacman_EXTERNAL_OBJECTS =
@@ -123,12 +151,14 @@ pacman: CMakeFiles/pacman.dir/main.cpp.o
 pacman: CMakeFiles/pacman.dir/Clases/Automovil.cpp.o
 pacman: CMakeFiles/pacman.dir/Clases/Jugador.cpp.o
 pacman: CMakeFiles/pacman.dir/Clases/Pelota.cpp.o
+pacman: CMakeFiles/pacman.dir/Clases/Juego.cpp.o
+pacman: CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.o
 pacman: CMakeFiles/pacman.dir/build.make
 pacman: /home/ronal/DevLibraries/SFML-2.5.1/lib/libsfml-graphics.so.2.5.1
 pacman: /home/ronal/DevLibraries/SFML-2.5.1/lib/libsfml-window.so.2.5.1
 pacman: /home/ronal/DevLibraries/SFML-2.5.1/lib/libsfml-system.so.2.5.1
 pacman: CMakeFiles/pacman.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable pacman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable pacman"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pacman.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +171,6 @@ CMakeFiles/pacman.dir/clean:
 .PHONY : CMakeFiles/pacman.dir/clean
 
 CMakeFiles/pacman.dir/depend:
-	cd /home/ronal/CLionProjects/pacman/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronal/CLionProjects/pacman /home/ronal/CLionProjects/pacman /home/ronal/CLionProjects/pacman/cmake-build-debug /home/ronal/CLionProjects/pacman/cmake-build-debug /home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles/pacman.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ronal/Desktop/Clion Projects/PONG" "/home/ronal/Desktop/Clion Projects/PONG" "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug" "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug" "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles/pacman.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/pacman.dir/depend
 

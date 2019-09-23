@@ -6,33 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/ronal/CLionProjects/pacman/Clases/Automovil.cpp
-Automovil.h
-/home/ronal/CLionProjects/pacman/Clases/Automovil.h
-
-/home/ronal/CLionProjects/pacman/Clases/Automovil.h
-string
--
-
-/home/ronal/CLionProjects/pacman/Clases/Jugador.cpp
-Jugador.h
-/home/ronal/CLionProjects/pacman/Clases/Jugador.h
-
-/home/ronal/CLionProjects/pacman/Clases/Jugador.h
-
-/home/ronal/CLionProjects/pacman/Clases/Pelota.cpp
-Pelota.h
-/home/ronal/CLionProjects/pacman/Clases/Pelota.h
-
-/home/ronal/CLionProjects/pacman/Clases/Pelota.h
-
-/home/ronal/CLionProjects/pacman/main.cpp
-iostream
--
+/home/ronal/Desktop/Clion Projects/PONG/Clases/Jugador.h
 SFML/Graphics.hpp
 -
-Clases/Automovil.h
-/home/ronal/CLionProjects/pacman/Clases/Automovil.h
+
+/home/ronal/Desktop/Clion Projects/PONG/Clases/PantallaJuego.cpp
+PantallaJuego.h
+/home/ronal/Desktop/Clion Projects/PONG/Clases/PantallaJuego.h
+iostream
+/home/ronal/Desktop/Clion Projects/PONG/Clases/iostream
+
+/home/ronal/Desktop/Clion Projects/PONG/Clases/PantallaJuego.h
+SFML/Graphics.hpp
+-
+Jugador.h
+/home/ronal/Desktop/Clion Projects/PONG/Clases/Jugador.h
+Pelota.h
+/home/ronal/Desktop/Clion Projects/PONG/Clases/Pelota.h
+
+/home/ronal/Desktop/Clion Projects/PONG/Clases/Pelota.h
+SFML/Graphics.hpp
+-
 
 /home/ronal/DevLibraries/SFML-2.5.1/include/SFML/Config.hpp
 TargetConditionals.h

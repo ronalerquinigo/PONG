@@ -1,3 +1,3 @@
-/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles/pacman.dir
-/home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles/pacman.dir
+/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles/edit_cache.dir

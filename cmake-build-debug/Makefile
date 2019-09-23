@@ -48,10 +48,10 @@ RM = /opt/clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ronal/CLionProjects/pacman
+CMAKE_SOURCE_DIR = "/home/ronal/Desktop/Clion Projects/PONG"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ronal/CLionProjects/pacman/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles /home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronal/CLionProjects/pacman/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ronal/Desktop/Clion Projects/PONG/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ Clases/Automovil.cpp.s:
 	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/Automovil.cpp.s
 .PHONY : Clases/Automovil.cpp.s
 
+Clases/Juego.o: Clases/Juego.cpp.o
+
+.PHONY : Clases/Juego.o
+
+# target to build an object file
+Clases/Juego.cpp.o:
+	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/Juego.cpp.o
+.PHONY : Clases/Juego.cpp.o
+
+Clases/Juego.i: Clases/Juego.cpp.i
+
+.PHONY : Clases/Juego.i
+
+# target to preprocess a source file
+Clases/Juego.cpp.i:
+	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/Juego.cpp.i
+.PHONY : Clases/Juego.cpp.i
+
+Clases/Juego.s: Clases/Juego.cpp.s
+
+.PHONY : Clases/Juego.s
+
+# target to generate assembly for a file
+Clases/Juego.cpp.s:
+	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/Juego.cpp.s
+.PHONY : Clases/Juego.cpp.s
+
 Clases/Jugador.o: Clases/Jugador.cpp.o
 
 .PHONY : Clases/Jugador.o
@@ -176,6 +203,33 @@ Clases/Jugador.s: Clases/Jugador.cpp.s
 Clases/Jugador.cpp.s:
 	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/Jugador.cpp.s
 .PHONY : Clases/Jugador.cpp.s
+
+Clases/PantallaJuego.o: Clases/PantallaJuego.cpp.o
+
+.PHONY : Clases/PantallaJuego.o
+
+# target to build an object file
+Clases/PantallaJuego.cpp.o:
+	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.o
+.PHONY : Clases/PantallaJuego.cpp.o
+
+Clases/PantallaJuego.i: Clases/PantallaJuego.cpp.i
+
+.PHONY : Clases/PantallaJuego.i
+
+# target to preprocess a source file
+Clases/PantallaJuego.cpp.i:
+	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.i
+.PHONY : Clases/PantallaJuego.cpp.i
+
+Clases/PantallaJuego.s: Clases/PantallaJuego.cpp.s
+
+.PHONY : Clases/PantallaJuego.s
+
+# target to generate assembly for a file
+Clases/PantallaJuego.cpp.s:
+	$(MAKE) -f CMakeFiles/pacman.dir/build.make CMakeFiles/pacman.dir/Clases/PantallaJuego.cpp.s
+.PHONY : Clases/PantallaJuego.cpp.s
 
 Clases/Pelota.o: Clases/Pelota.cpp.o
 
@@ -243,9 +297,15 @@ help:
 	@echo "... Clases/Automovil.o"
 	@echo "... Clases/Automovil.i"
 	@echo "... Clases/Automovil.s"
+	@echo "... Clases/Juego.o"
+	@echo "... Clases/Juego.i"
+	@echo "... Clases/Juego.s"
 	@echo "... Clases/Jugador.o"
 	@echo "... Clases/Jugador.i"
 	@echo "... Clases/Jugador.s"
+	@echo "... Clases/PantallaJuego.o"
+	@echo "... Clases/PantallaJuego.i"
+	@echo "... Clases/PantallaJuego.s"
 	@echo "... Clases/Pelota.o"
 	@echo "... Clases/Pelota.i"
 	@echo "... Clases/Pelota.s"
